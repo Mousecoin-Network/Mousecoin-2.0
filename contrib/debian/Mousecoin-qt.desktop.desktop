@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mousecoin
+Comment=Mousecoin P2P Cryptocurrency
+Exec=/usr/bin/Mousecoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/Mousecoin;
+Categories=Office;
+Name[en_US]=Mousecoin-qt.desktop

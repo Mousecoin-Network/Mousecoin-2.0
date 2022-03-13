@@ -1,0 +1,2 @@
+debian/bin/Mousecoind usr/bin
+src/Mousecoind usr/lib/Mousecoin
