@@ -1,4 +1,4 @@
-# <b> MOUSECOIN - In MIC3 We Trust </b>
+# <b> MOUSECOIN 2.0 - In MIC3 We Trust </b>
 
 --------------------------------------------------------------------------------------------------------------
 ## <b><u> :information_source: SPECIFICATIONS:</u></b><br>
