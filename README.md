@@ -2,30 +2,47 @@
 
 --------------------------------------------------------------------------------------------------------------
 ## <b><u> :information_source: SPECIFICATIONS:</u></b><br>
-- Name: Mousecoin<br>
-- Ticker: MIC3<br>
-- Block time: 2.1 Minutes<br>
-- Staking maturity: 45 Minutes [maximum 21 days]<br>
-- Mined maturity: 7 blocks<br>
-- TX maturity: 6 blocks<br>
-- Algorithm: SHA256 PoW/PoS | PoS only after block 92K<br>
-- PoS staking: 250% <br>
-- PoW reward: 1100 MIC3 per block<br>
-- PoW blocks: 92K<br>
-- Port: 11099<br>
-- RPCPort: 11098<br>
-- Blocktime: ~2 Minutes<br>
+Name: MOUSECOIN 2.0<br>
+Ticker: MIC3<br>
+Swap Ratio 10,000:1 — (1,000,000 OLD = 100 NEW)<br>
+Block Time: 3 Minutes<br>
+Max Supply: 92,000,000,000 (92 Billion)<br>
+Block time: 3 Minutes<br>
+Algorithm: Scrypt POS / POW<br>
+Pre-Mine: 14.5% (13.42 Billion) made up of:<br>
+- Swap Supply required: ~ 13 Billion<br>
+— Admin: 200 Million (Locked until 2030, Non staking)<br>
+— Community & Promotion: 220 Million (Non Staking)<br>
+= 13.42 Billion<br>
+Max Supply = 92 Billion (Capped)<br>
+Coinbase maturity: 30 blocks<br>
+Staking Maturity: 30 Blocks (~1.5 Hour)<br>
+Target spacing: 3 minutes<br>
+Target timespan: 1 block<br>
+Transaction confirmations: 30 blocks<br>
+
+<b><u> Block Number POW/POS%</u></b><br>
+0,000–10,000 5000 MIC3 / 20%<br>
+10,001–100,000 2000 MIC3 / 100%<br>
+100,001–150,000 1500 MIC3 / 90%<br>
+150,001–200,000 1000 MIC3 / 80%<br>
+200,001–250,000 1000 MIC3 / 75%<br>
+250,001–300,000 1000 MIC3 / 70%<br>
+300,001–350,000 1000 MIC3 / 60%<br>
+350,001–400,000 1000 MIC3 / 50% (POW ends at Block 400K)<br>
+400,001–550,000 40%<br>
+550,001–600,000 30%<br>
+600,001–650,000 20%<br>
+650,001–700,000 15%<br>
+700,001–750,000 10%<br>
+750,001 — Max Supply 5%<br>
 
 ## <b><u> :earth_americas: OFFICIAL LINKS:</u></b><br>
 | Services | Links |
 | --- | --- |
 | Official Website | https://mousecoin.network/ |
-| Wallets | https://mousecoin.network/mousecoin-wallets/ |
-| Wallet Setup Guide | https://mousecoin.network/mousecoin-wallets/mousecoin-wallet-setup-guides/ |
-| Staking Info & Guides | https://mousecoin.network/mousecoin-wallets/staking-mousecoin/ |
 | Explorer | http://explorer.mousecoin.network/ |
-| Explorer | http://mic3.blockexplorer.monster/ |
-| Github | https://github.com/ArcaneCrypto/Mousecoin-MIC3/ |
+| Github | https://github.com/Mousecoin-Network/Mousecoin-2.0/ |
 
 
 ## <b><u> :new: NEWS/UPDATES:</u></b><br>
@@ -52,25 +69,6 @@
 - Mousecoin Indonesian - https://t.me/MIC3Indonesia<br>
 
 ## <b><u> :dollar: EXCHANGES:</u></b><br>
-- CREX24:<br>
-BTC/MIC3: https://crex24.com/exchange/MIC3-BTC<br>
-<br>
-
-- Altmarkets:<br>
-DOGE/MIC3: https://altmarkets.io/trading/mic3doge<br>
-<br>
-
 - BOLOLEX:<br>
 DOGE/MIC3: https://bololex.com/trading/?symbol=MIC3-DOGE<br>
 <br>
-
-- StakeCenter:<br>
-DOGE/MIC3: https://stakecenter.co/client/exchange/DOGE/MIC3<br>
-RDD/MIC3: https://stakecenter.co/client/exchange/RDD/MIC3<br>
-<br>
-
-- YASOSHI.com<br>
-DOGE/MIC3: https://yasoshi.com/market/MIC3-DOGE<br>
-LTC/MIC3: https://yasoshi.com/market/MIC3-LTC<br>
-BCH/MIC3: https://yasoshi.com/market/MIC3-BCH<br>
-BTC/MIC3: https://yasoshi.com/market/MIC3-BTC<br>
