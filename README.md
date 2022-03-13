@@ -1,4 +1,4 @@
-# <b> :mouse: MOUSECOIN - In MIC3 We Trust </b>
+# <b> MOUSECOIN - In MIC3 We Trust </b>
 
 --------------------------------------------------------------------------------------------------------------
 ## <b><u> :information_source: SPECIFICATIONS:</u></b><br>
