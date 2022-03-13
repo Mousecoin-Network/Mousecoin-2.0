@@ -1,4 +1,4 @@
-# <b> :mouse: MOUSECOIN - The cryptocurrency of the community! </b>
+# <b> :mouse: MOUSECOIN - In MIC3 We Trust </b>
 
 --------------------------------------------------------------------------------------------------------------
 ## <b><u> :information_source: SPECIFICATIONS:</u></b><br>
@@ -14,6 +14,7 @@ Pre-Mine: 14.5% (13.42 Billion) made up of:<br>
 — Admin: 200 Million (Locked until 2030, Non staking)<br>
 — Community & Promotion: 220 Million (Non Staking)<br>
 = 13.42 Billion<br>
+
 Max Supply = 92 Billion (Capped)<br>
 Coinbase maturity: 30 blocks<br>
 Staking Maturity: 30 Blocks (~1.5 Hour)<br>
