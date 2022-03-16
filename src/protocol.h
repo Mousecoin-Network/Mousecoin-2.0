@@ -18,7 +18,7 @@
 extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-   return testnet ? 22299 : 11199;
+   return testnet ? 49325 : 49345; // Port MICTN(MIC TEST NODE) : Port MICMN(MIC MAIN NODE)
 }
 
 

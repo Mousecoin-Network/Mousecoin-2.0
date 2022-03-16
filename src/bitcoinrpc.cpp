@@ -42,7 +42,7 @@ void ThreadRPCServer3(void* parg);
 
 static inline unsigned short GetDefaultRPCPort()
 {
-    return GetBoolArg("-testnet", false) ? 21198 : 11198;
+    return GetBoolArg("-testnet", false) ? 49329 : 49349; // Port MICTN(MIC TEST RPC) : Port MICMN(MIC MAIN RPC)
 }
 
 Object JSONRPCError(int code, const string& message)
