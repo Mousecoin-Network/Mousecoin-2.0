@@ -48,7 +48,7 @@ Transaction confirmations: 30 blocks<br>
 
 ## <b><u> :new: NEWS/UPDATES:</u></b><br>
 - BitcoinTalk - https://bitcointalk.org/index.php?topic=5081656.0<br>
-- Discord - https://discord.gg/yGTmuG6<br>
+- Discord - https://discord.gg/3YT2tuyKuG<br>
 - Telegram Mousecoin Official News - https://t.me/MousecoinOfficial<br>
 - Twitter - https://twitter.com/MIC3_Official<br>
 - Facebook English - https://www.facebook.com/MousecoinOfficial/<br>
@@ -56,7 +56,7 @@ Transaction confirmations: 30 blocks<br>
 <br>
 
 ## <b><u> :question: SUPPORT:</u></b><br>
-- Discord - https://discord.gg/bD4zKCC<br>
+- Discord - https://discord.gg/GAqSzM2Amv<br>
 - Telegram - https://t.me/Mousecoin_MIC3<br>
 <br>
 
