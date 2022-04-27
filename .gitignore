@@ -26,3 +26,12 @@ build
 .qmake.stash
 
 !src/leveldb/Makefile
+*_plugin_import.cpp
+Makefile.Debug
+Makefile.Release
+object_script.*.Debug
+object_script.*.Release
+mousecoin-qt-*-v*_plugin_import.cpp
+object_script.Mousecoin-Qt-*.Debug
+object_script.Mousecoin-Qt-*.Release
+release/Mousecoin-Qt-*.exe
