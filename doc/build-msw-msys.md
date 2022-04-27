@@ -76,12 +76,11 @@ Add the path of mingw32 in the system variables, being added in the PATH option 
 
 ### OpenSSL
 -------
-| MSYS Shell: |
-|-------------|
-
 un-tar sources with MSYS 'tar xfz' to avoid issue with symlinks (OpenSSL ticket 2377)
 change 'MAKE' env. variable from 'C:\MinGW32\bin\mingw32-make.exe' to '/c/MinGW32/bin/mingw32-make.exe'
 
+| MSYS Shell: |
+|-------------|
 ```sh
 $ cd /c/deps/
 $ tar xvfz openssl-1.0.2r.tar.gz
