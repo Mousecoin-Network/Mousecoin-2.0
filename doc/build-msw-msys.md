@@ -125,7 +125,7 @@ mingw32-make -f Makefile.mingw init upnpc-static
 
 ### Protobuf
 ---------
-| DOS Prompt: |
+| MSYS Shell: |
 |-------------|
 ```
 $ cd /c/deps/
