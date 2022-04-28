@@ -61,6 +61,8 @@ map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
 bool fDebug = false;
 bool fDebugNet = false;
+bool fDebugSmsg = false;
+bool fNoSmsg = false;
 bool fPrintToConsole = false;
 bool fPrintToDebugger = false;
 bool fRequestShutdown = false;
@@ -110,6 +112,9 @@ public:
     }
     ~CInit()
     {
+        // Securely erase the memory used by the PRNG
+        RAND_cleanup();
+
         // Shutdown OpenSSL library multithreading support
         CRYPTO_set_locking_callback(NULL);
         for (int i = 0; i < CRYPTO_num_locks(); i++)
@@ -1053,12 +1058,50 @@ boost::filesystem::path GetConfigFile()
     return pathConfigFile;
 }
 
+string randomStrGen(int length) 
+{
+    static string charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+    string result;
+    result.resize(length);
+    for (int i = 0; i < length; i++)
+        result[i] = charset[rand() % charset.length()];
+
+    return result;
+}
+
+void createConf()
+{
+    srand(time(NULL));
+
+    ofstream pConf;
+    pConf.open(GetConfigFile().string().c_str());
+    pConf << "rpcuser=user\nrpcpassword="
+    + randomStrGen(15)
+    + "\nlisten=1"
+    + "\nrpcport=49349"
+    + "\nport=49345"
+    + "\n#(0=off, 1=on) daemon - run in the background as a daemon and accept commands"
+    + "\ndaemon=1"
+    + "\n#(0=off, 1=on) server - accept command line and JSON-RPC commands"
+    + "\nserver=1"
+    + "\nrpcallowip=127.0.0.1"
+    + "\ntestnet=0"
+    + "\naddnode=144.91.125.118:49345"
+    + "\naddnode=193.187.129.16:49345"
+    + "\naddnode=mousecoinseed.sperocoin.org:49345";
+   pConf.close();
+}
+
 void ReadConfigFile(map<string, string>& mapSettingsRet,
                     map<string, vector<string> >& mapMultiSettingsRet)
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
-    if (!streamConfig.good())
-        return; // No bitcoin.conf file is OK
+    if (!streamConfig.good()) {
+        createConf();
+        new(&streamConfig) boost::filesystem::ifstream(GetConfigFile());
+        if(!streamConfig.good())
+            return;
+    }
 
     set<string> setOptions;
     setOptions.insert("*");
